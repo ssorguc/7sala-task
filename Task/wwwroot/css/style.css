@@ -1,0 +1,13 @@
+body {
+    background-color: #049355;
+}
+
+.hero {
+    font-family: 'Fredoka One', cursive;
+    color: #049355;
+    font-size: 30px;
+}
+.arabic {
+    font-family: 'El Messiri', sans-serif;
+    color: chocolate;
+}
