@@ -1,8 +1,5 @@
 # 7sala-task
-This is a small web app
-
-TASK GIVEN:
-Create a web application.
+Web application.
 The application sections are :
  - back end: Uses .NET Core API, using Entity Framework with code first approach to create SQL server table for some Products with name, price, image and short description.
  - function to List some of the previous products as featured and some as best sellers.
@@ -17,8 +14,7 @@ Front-end:
 
 A unit test application for testing API calls
 
-WHAT DID I COMPLETE HERE:
-
+WHAT WAS COMPLETED:
  - Created .NET Core Web API appication that recieves GET, PUT, DELETE requests (Controller layer with Product controller class). Web API sends the information about Products in JSON format. 
  - Project is based on MVC pattern, so in Model directory a class SingleProduct is a base for DBContext (that is to be used for database migration with Entity Framework).  
  - For the simplicity I have kept everything in the same project solution (which helped me with dealing with cross origin request problems and application layer connection). 
